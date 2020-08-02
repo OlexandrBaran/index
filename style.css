@@ -1,0 +1,196 @@
+/*--------------Grid--------------*/
+.grid-template{
+    display: grid;
+    grid-template-areas: "a a a a"
+                         "b b b b"
+                         "c c c c"
+                         "d d d d"
+                         "e e e e"
+                         "f f f f"
+                         "g g g g"
+                         "h h h h"
+                         "i i i i"
+                         "j j j j"
+                         "k k k k"
+}
+
+header.grid-item{
+    grid-area: a;
+    width: 100%;
+    height: 670px;
+    background-color: #E9E9E9;
+}
+
+.about-section{
+    grid-area: b;
+    width: 100%;
+    height: 420px;
+    background-color: #fff;
+}
+
+.professional-skills-section{
+    grid-area: c;
+    width: 100%;
+    height: 570px;
+    background-color: #F8F9F9;
+}
+.info-numbers-section{
+    grid-area: d;
+    width: 100%;
+    height: 240px;
+    background-color: #10C9C3;
+}
+.photo-section{
+    grid-area: e;
+    width: 100%;
+    height: 702px;
+    background-color: #1E1E1E;
+}
+.process-section{
+    grid-area: f;
+    width: 100%;
+    height: 929px;
+    background-color: #FFFFFF;
+}
+.category-section{
+    grid-area: g;
+    width: 100%;
+    height: 535px;
+    background-color: #F5F5F5;
+}
+.q-section{
+    grid-area: h;
+    width: 100%;
+    height: 500px;
+    background-color: #10C9C3;
+}
+.logos-section{
+    grid-area: i;
+    width: 100%;
+    height: 200px;
+    background-color: #FFF;
+}
+.form-section{
+    grid-area: j;
+    width: 100%;
+    height: 752px;
+    background-color: #F5F5F5;
+}
+footer.grid-item{
+    grid-area: k;
+    width: 100%;
+    height: 284px;
+    background-color: #141414;
+}
+/*------grid------*/
+
+/*-------navbar------*/
+
+
+  a {
+    text-decoration: none;
+    color: #191919;
+    
+    
+  }
+  
+  a:hover {
+    color: #1ECBC6;
+  }
+  nav {
+    display: flex;
+    margin-right: 58px;
+    margin-top: 45px;
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+    margin:0;
+    list-style: none;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+  
+  .brand {
+    padding: 38px 0 0 98px;
+    height: 28px;
+  }
+  
+  a.nav-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 40px;
+}
+  
+.header-info-block {
+    float: right;
+    margin-right: 150px;    
+}
+
+.header-info-block h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    margin-top: 182px;
+
+}
+
+.header-info-block p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 1.5;
+    padding-left: 4px;
+}
+
+
+.header-info-block button{
+    height: 55px;
+    width: 180px;
+    background-color: #10C9C3;
+    border: none;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-left: 4px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-container h2{
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about-container p{
+    margin-top: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #787878;
+}
+
+.about-container img{
+    margin-top: 38px;
+    height: 57px;
+    width: 223px;
+}
+
