@@ -37,6 +37,11 @@ header.grid-item{
     width: 100%;
     height: 570px;
     background-color: #F8F9F9;
+    background-image: url("./images/prof-skills-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left left;
 }
 .info-numbers-section{
     grid-area: d;
@@ -48,7 +53,7 @@ header.grid-item{
     grid-area: e;
     width: 100%;
     height: 702px;
-    background-color: #1E1E1E;
+    background-color: #EEEEEE;
 }
 .process-section{
     grid-area: f;
@@ -198,3 +203,104 @@ footer.grid-item{
     width: 223px;
 }
 
+.skills-section{
+        margin-top: 166px;
+        margin-left: 100px;
+}
+
+.professional-skills-section div h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px; 
+}
+
+.professional-skills-section div ul{
+    display: inline-table;
+}
+
+.prof-skills-li{
+    display: block;
+}
+
+.prof-skills-li p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px; 
+    text-transform: uppercase;
+    margin-top: 42px;
+}
+
+.myBar {
+    
+    height: 3px;
+    background-color: #10C9C3;
+    color: #000;
+}
+
+.bar1 {
+    width: 75%;
+}
+.bar2 {
+    width: 90%;
+}
+.bar3 {
+    width: 65%;
+}
+.myProgress{
+    width: 500px;
+    height: 3px;
+    background-color: #D8D8D8; 
+    margin-top: 20px; 
+}
+
+/*--------------------*/
+
+.info-numbers-section ul{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    
+    
+}
+
+.info-numbers-section ul li{
+    color: white;   
+    font-size: 17.5px;
+    flex-basis: 25%;
+    margin-left: 100px;
+    
+}
+.info-numbers-section ul li i{
+   float: left;
+   padding-top: 2px;
+  
+}
+
+
+.info-numbers-section ul li  span{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 28px;
+
+}
+
+.info-numbers-section ul li p{
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left: 63px;
+  }
+.photo-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    align-content: flex-start;
+}
+
+.photo-section img{
+    width: 337px;   
+}
+
+.photo-section img:hover{
+    
+}
